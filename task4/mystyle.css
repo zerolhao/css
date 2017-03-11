@@ -15,6 +15,10 @@ body
 	padding: 0rem 1.5rem;
 	line-height: 5rem;
 	background-color: rgb(95,192,205);
+	position: fixed;
+	top: 0;
+	left: 0;
+	right: 0;
 }
 .header a
 {
@@ -42,10 +46,14 @@ body
 }
 .main
 {
-	width: 100%;
-	margin:0;
-	height: 19.5rem;
-	padding: 0rem;
+	margin: 0;
+	padding: 0;
+	position: absolute;
+	top: 5rem;
+	left: 0;
+	right: 0;
+	bottom: 0;/*这个属性和overflow-y一起设定将使得header位于main之上（当页面长度不足进行滚动时）*/
+	overflow-y: auto;
 }
 .main input
 {
