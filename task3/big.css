@@ -1,0 +1,63 @@
+﻿html
+{
+	font-size: 62.5%;
+}
+body
+      {
+      	padding: 0;
+        margin: 0;
+        background-color: #68cdd5;
+      }
+      .return
+      {
+      	width: auto;
+      	height: auto;
+      	margin-left: 3rem;
+      	margin-top:  3rem;
+      }
+      .return img
+      {
+      	width: 5.4rem;
+      }
+      .logo
+      {
+      	width: 100%;
+      	margin-top: 5rem;
+      }
+      .logo img
+      {
+      	width: 18.1rem;
+      	margin:  0 auto ;
+      	display: block;
+      }
+      .introduction
+      {
+      	color: #fff;
+      	margin: 15rem auto;
+      	font-size:  3rem;
+      	width: 70%;
+      }
+      .footer
+      {
+      	width: 70%;
+      	color: #fff;
+      	font-size:  3rem;
+      	text-align:  center;
+      	margin: 150px auto 0;
+      	padding: 0rem;
+      }
+      .footer img
+      {
+      	width: 8.6rem;
+      	height: 8.6rem;
+      }
+      .footer .left
+      {
+      	width: auto;
+      	float: left;
+      }
+      .footer .right
+      {
+      	width: auto;
+      	float: right;
+      }

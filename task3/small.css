@@ -1,0 +1,62 @@
+html
+{
+	font-size: 75%;
+}
+body
+      {
+      	padding: 0;
+        margin: 0;
+        background-color: #68cdd5;
+      }
+      .return
+      {
+      	width: auto;
+      	height: auto;
+      	margin-left: 1.5rem;
+      	margin-top:  1.5rem;
+      }
+      .return img
+      {
+      	width: 2.7rem;
+      }
+      .logo
+      {
+      	width: 100%;
+      	margin-top: 2.5rem;
+      }
+      .logo img
+      {
+      	width: 9rem;
+      	margin:  0 auto ;
+      	display: block;
+      }
+      .introduction
+      {
+      	color: #fff;
+      	margin: 7.5rem auto;
+      	font-size:  1.25rem;
+      	width: 70%;
+      }
+      .footer
+      {
+      	width: 70%;
+      	color: #fff;
+      	font-size:  1.25rem;
+      	text-align:  center;
+      	margin: 7.5rem auto 0;
+      	padding: 0rem;
+      }
+      .footer img
+      {
+      	width: 4.3rem;
+      }
+      .footer .left
+      {
+      	width: auto;
+      	float: left;
+      }
+      .footer .right
+      {
+      	width: auto;
+      	float: right;
+      }
