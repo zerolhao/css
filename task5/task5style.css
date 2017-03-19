@@ -92,7 +92,7 @@ main
 .info .location
 {
 	background: url(location.png) no-repeat scroll;
-	background-size: 1.6rem;
+	background-size: 1.4rem;
 	background-position: 0 0;
 	margin-top: 0.4rem;
 	padding-left: 2rem;
@@ -130,17 +130,17 @@ main
 ul li
 {
 	margin: 0;
-	padding: 1.75rem 1.5rem;
-	line-height: 1.5rem;
+	padding: 1.5rem 1.5rem;
+	line-height: 2rem;
 	border-bottom: 1px solid #aaa;
 	position: relative;
 }
 .list1
 {
 	background: url(iconstart.jpg) no-repeat scroll;
-	background-size: 1.5rem;
-	background-position: 0;
-	padding: 0 1.3rem;
+	background-size: 1.9rem;
+	background-position: 0 0;
+	padding: 0 1.4rem 0 2rem;
 	display: inline-block;
 }
 .listleft
