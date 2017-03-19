@@ -1,0 +1,194 @@
+html
+{
+	font-size: 62.5%;
+}
+body
+{
+	margin: 0;
+	padding: 0;
+}
+hr
+{
+	color: #ffe5e7;
+	size: 1px;
+	margin: 0;
+}
+header
+{
+	background-color: #5fc0cd;
+	height: 4rem;
+	margin: 0;
+	padding: 0 1.5rem;
+	position: fixed;
+	top: 0;
+	left: 0;
+	right: 0;
+}
+header img
+{
+	width: 1.5rem;
+	height: 4rem;
+	float: left;
+}
+header h1
+{
+	margin: 0 2rem;
+	color: white;
+	line-height: 4rem;
+	text-align: center;
+}
+main
+{
+	height: auto;
+	margin: 0;
+	padding: 0;
+	position: absolute;
+	top: 4rem;
+	left: 0;
+	right: 0;
+	bottom: 6.5rem;
+	overflow-y: auto;
+}
+.top
+{
+	width: 100%;
+	height: 16.35rem;
+	background: url(background1.jpg)
+	 no-repeat scroll 0 0;
+	background-size: cover;
+}
+.top .portrait
+{
+	width: 8.45rem;
+	margin: 0;
+	padding: 0;
+	position: absolute;
+	top: 3.95rem;
+	left: 1.5rem;
+	right: 0;
+}
+.portrait img
+{
+	width: 100%;
+}
+.top .info
+{
+	position: absolute;
+	top: 5.95rem;
+	left: 11.45rem;
+	right: 0;
+}
+.info p
+{
+	margin: 0;
+	padding: 0;
+	font-size: 1.4rem;
+	color: white;
+}
+.info .name
+{
+	font-size: 1.6rem;
+}
+.info .location
+{
+	background: url(location.png) no-repeat scroll;
+	background-size: 1.6rem;
+	background-position: 0 0;
+	margin-top: 0.4rem;
+	padding-left: 2rem;
+}
+.bottom
+{
+	width: 100%;
+	margin: 0;
+	padding: 0;
+	background-color: white;
+}
+.bottom .intro
+{
+	height: 5rem;
+	text-align: left;
+	margin: 0;
+	padding: 0;
+	border-bottom: 1px solid #aaa;
+}
+.intro span
+{
+	margin-left: 1.5rem;
+	padding-left: 1.5rem;
+	font-size: 1.5em;
+	line-height: 5rem;
+	border-left: 5px solid #5fc0cd;
+}
+.bottom ul
+{
+	padding: 0 1.5rem;
+	margin: 0;
+	list-style: none;
+	font-size: 1.5rem;
+}
+ul li
+{
+	margin: 0;
+	padding: 1.75rem 1.5rem;
+	line-height: 1.5rem;
+	border-bottom: 1px solid #aaa;
+	position: relative;
+}
+.list1
+{
+	background: url(iconstart.jpg) no-repeat scroll;
+	background-size: 1.5rem;
+	background-position: 0;
+	padding: 0 1.3rem;
+	display: inline-block;
+}
+.listleft
+{
+	width: 7.75rem;
+	color: #aaa;
+	border-right: 1px solid #aaa;
+	transform: translateY(-50%);
+	position: absolute;
+	top: 50%;
+}
+.listright
+{
+	margin-left: 9.25rem;
+}
+.listright p
+{
+	margin: 0;
+	padding: 0;
+}
+footer
+{
+	font-size: 1.5rem;
+	background: white;
+	margin: 0;
+	padding: 0.75rem 1.5rem;
+	display: flex;
+	position: fixed;
+	bottom: 0;
+	left: 0;
+	right: 0;
+}
+footer button
+{
+	width: 50%;
+	height: 5rem;
+	border-radius: 5px;
+	border: none;
+	outline: none;
+}
+footer .message
+{
+	box-shadow: 0 0 0  3px #5fc0cd inset;
+	background: white;
+	color: #5fc0cd;
+	margin-right: 1rem;
+}
+footer .phone
+{
+	background: #5fc0cd;
+}
