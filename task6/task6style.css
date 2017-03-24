@@ -1,0 +1,207 @@
+html
+{
+	font-size: 625%;
+}
+body
+{
+	margin: 0;
+	padding: 0;
+}
+header
+{
+	background-color: #5fc0cd;
+	position: fixed;
+	top: 0;
+	left: 0;
+	right: 0;
+	text-align: center;
+}
+.find-group
+{
+	display: inline-block;
+	vertical-align: middle;
+	color: white;
+	font-size: 0.14rem;
+	box-sizing: border-box;
+	position: relative;
+	margin: 5px 0;
+}
+.find
+{
+	border-radius: 5px;
+	background-color: #55a8b3;
+	border: none;
+	margin: 0;
+	padding: 0.1rem 0.12rem;
+	position: relative;
+	outline: none;
+}
+.find:focus
+{
+	color: #5fc0cd;
+	background-color: white;
+	z-index: 1;
+	outline: none;
+}
+.find-employer
+{
+	margin-right: -5px;
+}
+.find-carer
+{
+	margin-left: -5px;
+}
+header img
+{
+	width: 0.21rem;
+	position: absolute;
+	top: 50%;
+	right: 0.12rem;
+	transform: translateY(-50%);
+	cursor: pointer;
+}
+
+main
+{
+	margin: 0;
+	font-size: 0.14rem;
+	color: #aaa;
+	position: absolute;
+	top: 0.5rem;
+	left: 0;
+	right: 0;
+	bottom: 0.55rem;
+	overflow-y: auto;
+}
+.container
+{
+	width: 100%;
+	margin-top: 0;
+}
+.sub1
+{
+	margin: 0;
+	padding: 0 0.05rem;
+	background: #fff;
+	border-right: 1px solid #bbb;
+	border-bottom: 1px solid #bbb;
+}
+.no-border-right
+{
+	border-right: none;
+}
+.btn-text
+{
+	width: 100%;
+	background-color: #fff;
+	border:none;
+	text-align: center;
+	position: relative;
+	padding: 7px 12px;
+	white-space: nowrap;
+	outline: none;
+}
+.span-right
+{
+	position: absolute;
+	top: 50%;
+	right: 0;
+	transform: translateY(-50%);
+}
+.list-info
+{
+	margin: 0;
+	padding: 0;
+	word-spacing: -6px;
+	border-bottom: 1px solid #bbb;
+}
+.list-mygroup
+{
+	list-style-type: none;
+	margin: 0;
+	padding: 0 0.16rem;
+}
+.list-item
+{
+	margin: 0;
+	padding: 0.1rem 0 0;
+	vertical-align: middle;
+}
+.icon
+{
+	width: 0.15rem;
+	height: 0.15rem;
+	margin: auto 0;
+	margin-right: 0.1rem;
+	padding: 0;
+	display: inline-block;
+	background: url(icon.png)
+	 no-repeat 0 0;
+	 position: relative;
+	 top: 2px;
+}
+.icon-calender
+{
+	background-position: 0 0;
+}
+.icon-location
+{
+	background-position: 0 bottom;
+}
+.red-tag
+{
+	color: red;
+	padding-right: 0.15rem;
+	float: right;
+	background: url(icon-right.png)
+	 no-repeat scroll 100% 50% / 0.095rem;
+}
+.icon-right
+{
+	width: 0.095rem;
+	float: right;
+	margin: auto 0;
+}
+footer
+{
+	height: ;
+	background-color: #f8fafb;
+	position: fixed;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	padding: 0.05rem 0 0.03rem;
+	display: flex;
+	vertical-align: middle;
+}
+.page
+{
+	width: 33%;
+	margin: 0;
+	padding: 0;
+	font-size: 0.14rem;
+	color: #5fc0cd;
+	text-align: center;
+	vertical-align: bottom;
+	line-height: 0.0.47rem;
+	display: inline-block;
+	margin: auto 0;
+	padding-top: 0.22rem;
+	cursor: pointer;
+}
+.bg1
+{
+	background: url(icon-house.png)
+	 no-repeat 50% 0 / 0.23rem;
+}
+.bg2
+{
+	background: url(icon-write.png)
+	 no-repeat 50% 0 / 0.47rem;
+	 padding-top: 0.47rem;
+}
+.bg3
+{
+	background: url(icon-user.png)
+	 no-repeat 50% 0 / 0.21rem;
+}
