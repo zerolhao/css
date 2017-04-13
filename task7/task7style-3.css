@@ -1,0 +1,166 @@
+html
+{
+	font-size: 625%;
+}
+body
+{
+	font-size: 0.14rem;
+}
+header
+{
+	background-color: #29bde0;
+	margin: 0;
+	padding: 0.1rem;
+	position: fixed;
+	top: 0;
+	left: 0;
+	right: 0;
+	border-bottom: 2px solid #7dc5e4;
+}
+.top-page
+{
+	position: relative;
+	text-align: center;
+	color: white;
+}
+.icon
+{
+	width: 0.3rem;
+	height: 0.2rem;
+	cursor: pointer;
+	display: inline-block;
+}
+.icon-home-3
+{
+	background: url(home-3.png) no-repeat
+	 scroll left 0 / auto 0.2rem;
+	float: left;
+}
+.icon-question-3
+{
+	background: url(question-3.png) no-repeat
+	 scroll right 0 / auto 0.2rem;
+	float: right;
+}
+
+main
+{
+	padding-bottom: 0.6rem;
+	position: absolute;
+	top: 0.41rem;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	overflow-y: auto;
+}
+.content
+{
+	width: 100%;
+	position: relative;
+}
+.top
+{
+	width: 100%;
+	position: relative;
+	padding: 0.14rem 0 0 0;
+	border-bottom: 2px solid #cbcbcb;
+	background-color: #29bde0;
+}
+.winner-undercover-3
+{
+	height: auto;
+	margin: 0;
+	padding: 1.12rem 0.35rem 0.2rem;
+	background: url(winner-undercover-3.png)
+	 no-repeat scroll center 0 / auto 1.02rem;
+	color: #ffc865;
+	font-size: 0.16rem;
+}
+.game-result
+{
+	margin: 0;
+	padding: 0.1rem 0.35rem;
+	font-size: 0.14rem;
+	color: white;
+}
+.bottom
+{
+	width: 100%;
+	position: relative;
+	color: #cbcbcb;
+	background-color: white;
+}
+.days
+{
+	width: 100%;
+	border-bottom: 2px solid #cbcbcb;
+	position: relative;
+}
+.day-num
+{
+	display: inline-block;
+	font-size: 0.16rem;
+	color: black;
+	position: absolute;
+	top: 0.1rem;
+	left: 0.35rem;
+}
+.hours
+{
+	display: inline-block;
+	text-align: right;
+	vertical-align: bottom;
+	position: absolute;
+	top: 0.13rem;
+	right: 0.35rem;
+}
+.night,.daytime
+{
+	margin: 0;
+	padding: 0 0.35rem;
+}
+.night
+{
+	padding-top: 0.4rem;
+}
+.daytime
+{
+	padding-bottom: 0.1rem;
+}
+
+footer
+{
+	position: fixed;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	display: flex;
+	justify-content: space-around;
+	background: rgba(41,189,224,0.5);
+}
+footer button
+{
+	width: 100%;
+	height: 100%;
+	border: none;
+	border-radius: 5px;
+	outline: none;
+	color: white;
+	font-size: 0.14rem;
+}
+footer a
+{
+	display: block;
+	width: 40%;
+	height: 0.4rem;
+	margin: 0.1rem 0;
+	opacity: 1;
+}
+.once-again
+{
+	background-color: #f66f6f;
+}
+.upload-share
+{
+	background-color: #fbb435;
+}
