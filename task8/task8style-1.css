@@ -1,0 +1,312 @@
+*
+{
+	margin: 0;
+	padding: 0;
+}
+html
+{
+	font-size: 625%;
+}
+body
+{
+	font-size: 0.14rem;
+	background-color: #fafafa;
+}
+header
+{
+	position: relative;
+}
+span
+{
+	display: inline-block;
+}
+a
+{
+	outline: none;
+	text-decoration: none;
+	border: none;
+}
+a:hover, a:focus, a:active
+{
+	outline: none;
+	text-decoration: none;
+	border: none;
+}
+.top-bar1
+{
+	padding: 0.1rem 1.8rem;
+	text-align: left;
+	color: #29b078;
+	position: relative;
+}
+.sprites-top
+{
+	width: 25px;
+	height: 39px;
+	color: #29b078;
+	background: #29b078 url(image/sprites-top.png) no-repeat scroll;
+	position: absolute;
+	top: 0.5px;
+	cursor: pointer;
+}
+.wechat
+{
+	background-position: 0 0;
+	right: 2.6rem;
+}
+.qq
+{
+	background-position: 50% 0;
+	right: 2.2rem;
+}
+.weibo
+{
+	background-position: right 0;
+	right: 1.8rem;
+}
+.top-bar2
+{
+	height: 0.99rem;
+	padding: 0 1.8rem;
+	background-color: #29b078;
+	position: relative;
+}
+.top-bar2 .home
+{
+	width: 1.07rem;
+	height: 0.49rem;
+	margin: 0.25rem 0;
+	display: inline-block;
+	background: url(image/home.png) no-repeat scroll left center;
+}
+.navbar
+{
+	margin: 0;
+	list-style: none;
+	border: none;
+	color: #fff;
+	font-size: 0.16rem;
+	float: right;
+
+}
+.navbar li
+{
+	float: left;
+}
+.nav-li
+{
+	width: 1rem;
+	height: 0.99rem;
+	line-height: 0.95rem;
+	text-align: center;
+	display: block;
+	color: #fff;
+}
+.nav-li:hover,.nav-li:focus
+{
+	color: #fff;
+}
+.nav-li:hover
+{
+	border-bottom: 4px solid #fff;
+}
+
+.carousel-inner
+{
+	width: 100%;
+	max-height: 6rem;
+	position: relative;
+	overflow: hidden;
+}
+
+main
+{
+	position: relative;
+}
+.container
+{
+	margin-top: 0.6rem;
+}
+.col-xs-3 img
+{
+	display: block;
+	margin: 0 auto;
+}
+.col-xs-3 h5, .col-xs-12 h5
+{
+	text-align: center;
+	color: #000;
+	font-weight: bold;
+}
+.col-xs-3 p
+{
+	color: #999;
+	text-align: left;
+}
+.num
+{
+	padding: 0.36rem 0 0.36rem 0.3rem;
+	display: block;
+	border-left: 2px dashed #999;
+}
+.num .icon-user
+{
+	color: #29b078;
+	text-align: left;
+	padding: 0  0 0 0.26rem;
+	display: block;
+	background: url(image/icon-user.png)
+	 no-repeat scroll 0 center / 0.13rem 0.13rem;
+}
+.row1
+{
+	text-align: center;
+	margin: 0.1rem 0 0.2rem;
+}
+.row2
+{
+	margin: 0.2rem 0;
+}
+.row3
+{
+	margin: 0 0.15rem;
+}
+.col-xs-3 .icon
+{
+	width: 0.73rem;
+	height: 0.73rem;
+	padding: 0.265rem 0;
+	text-align: center;
+	color: #29b078;
+	background: url(image/icon-numberbg.png) no-repeat scroll
+	 0 0;
+	display: inline-block;
+}
+.col-xs-3 .step
+{
+	margin: 0;
+	color: #999;
+	text-align: left;
+	display: inline-block;
+	position: absolute;
+	top: 50%;
+	left: 0.95rem;
+	right: 0.43rem;
+	transform: translateY(-50%);
+}
+.col-xs-3 .icon-righttriangle
+{
+	width: 0.28rem;
+	height: 0.26rem;
+	background: url(image/icon-righttriangle.png) no-repeat scroll
+	 0 0;
+	display: inline-block;
+	position: absolute;
+	top: 50%;
+	right: 0;
+	transform: translateY(-50%);
+}
+.student-info
+{
+	width: 90%;
+	margin: 0 5%;
+	padding: 0.2rem;
+	background-color: #fff;
+	box-shadow: 0 2px 2px 2px #eee;
+	border-radius: 5px;
+}
+.carousel-indicators
+{
+	margin-bottom: -0.5rem;
+}
+.carousel-indicators li
+{
+	background-color: #fff;
+	box-shadow: 0 1px 1px 1px #eee;
+}
+
+.carousel-indicators .active
+{
+	background-color: #29b078;
+	border-color: #29b078;
+}
+.col-xs-2-4
+{
+	width: 20%;
+	float: left;
+	background-color: #fff;
+}
+a img
+{
+	max-width: 99%;
+}
+a img:hover,img:focus,img:active
+{
+	z-index: 100;
+	box-shadow: 0 0 2px 2px #eee;
+}
+footer
+{
+	margin-top: 0.6rem;
+	background-color: #fff;
+	position: relative;
+}
+.out-box
+{
+	width: 100%;
+	background-color: #29b078;
+}
+.ftlk
+{
+	width: 100%;
+	margin: 0 0.15rem;
+	list-style-type: disc;
+	color: #999;
+}
+.ftlk li
+{
+	width: 10%;
+	float: left;
+}
+.ftlk a
+{
+	display: inline-block;
+	text-decoration: none;
+	color: #999;
+	border-bottom: 1px solid #fff;
+}
+.ftlk a:hover,
+.ftlk a:focus,
+.ftlk a:active
+{
+	border-bottom: 1px solid #29b078;
+}
+.container-bottom
+{
+	color: #fff;
+}
+.container-bottom a
+{
+	color: #fff;
+	display: inline-block;
+	text-decoration: none;
+	border-bottom: 1px solid #29b078;
+}
+.container-bottom a:hover,
+.container-bottom a:focus,
+.container-bottom a:active
+{
+	border-bottom: 1px solid #fff;
+}
+.container-bottom img
+{
+	margin: 0;
+}
+
+.ftp
+{
+	text-align: center;
+	color: #fff;
+	border-top: 1px solid #32c086;
+	margin: 0;
+}
